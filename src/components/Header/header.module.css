@@ -1,0 +1,39 @@
+.page__header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: var(--header-background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 7rem;
+  padding: 0 2rem;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-left: 8rem;
+}
+
+.header__list {
+  display: flex;
+  list-style: none;
+  margin-left: 3.75rem;
+  padding: 0;
+}
+
+.header__list__content {
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+}
+
+.header__list__element {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
